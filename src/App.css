@@ -1,38 +1,100 @@
-.App {
+body{
+  font-family: "Montserrat";
+}
+
+h1{
   text-align: center;
+  padding: 50px 0 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.navbar{
+   padding:0 15% 0;
+   background-color: #005086;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item{
+  padding: 0 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.header-icon{
+padding: 0 3px;
+}
+
+#featured-recipe-carousel{
+  background-color: #b0cac7;
+  text-align: center;
+  color:#000;
+}
+
+.carousel-image{
+  width: 50%;
+  margin: 20px;
+}
+
+.btn{
+  width: 40%;
+  margin: 45px auto 0;
+  color:#000;
+}
+
+.btn-outline-success{
+  width: auto;
+}
+
+.carousel-inner{
+  padding: 7% 15%;
+}
+
+#details{
+  padding: 0 100px 50px;
+  
+}
+
+ul{
+ list-style-type:none;
+}
+
+ul li span{
+  display: block;
+  width:auto;
+  overflow: hidden;
+}
+
+ul li input {
+    float:left;
+    margin:5px;
+    width:30px;
+    color: #c1c1c1;
+}
+
+
+#footer{
+  text-align: center;
+  background-color: #005086;
+  color:#8f8f8f;
+  padding: 50px;
+}
+
+.footer-icon{
+  color: #000;
+  margin: 10px;
 }
