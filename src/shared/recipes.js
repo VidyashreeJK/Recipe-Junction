@@ -5,9 +5,9 @@ export const RECIPES = [
     image: "/assets/images/image1.jpg",
     featured: true,
     preparationTime: "00:30",
-    cookingTime:"03:40",
-    yields:"5 Servings"    
-    },
+    cookingTime: "03:40",
+    yields: "5 Servings",
+  },
   {
     id: 1,
     name: "Nepali Style Chicken Curry",
@@ -15,8 +15,8 @@ export const RECIPES = [
     featured: true,
     preparationTime: "00:20",
     cookingTime: "00:30",
-    yields: "4-6 Servings"
-    },
+    yields: "4-6 Servings",
+  },
   {
     id: 2,
     name: "Iranian Noodle Soup",
@@ -24,8 +24,8 @@ export const RECIPES = [
     featured: true,
     preparationTime: "00:30",
     cookingTime: "03:40",
-    yields: "5 Servings"
-    },
+    yields: "5 Servings",
+  },
   {
     id: 3,
     name: "Chinese Fried Rice",
@@ -33,6 +33,6 @@ export const RECIPES = [
     featured: false,
     preparationTime: "00:30",
     cookingTime: "00:40",
-    yields: "5 Servings"
-    },
+    yields: "5 Servings",
+  },
 ];

@@ -1,100 +1,97 @@
-body{
+body {
   font-family: "Montserrat";
 }
 
-h1{
+h1 {
   text-align: center;
   padding: 50px 0 25px;
 }
 
-h2{
+h2 {
   font-family: "Montserrat";
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
 }
 
-
-.navbar{
-   padding:0 15% 0;
-   background-color: #005086;
+.navbar {
+  padding: 0 15% 0;
+  background-color: #005086;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
 
-.header-icon{
-padding: 0 3px;
+.header-icon {
+  padding: 0 3px;
 }
 
-#featured-recipe-carousel{
+#featured-recipe-carousel {
   background-color: #b0cac7;
   text-align: center;
-  color:#000;
+  color: #000;
 }
 
-.carousel-image{
+.carousel-image {
   width: 50%;
   margin: 20px;
 }
 
-.btn{
+.btn {
   width: 40%;
   margin: 45px auto 0;
-  color:#000;
+  color: #000;
 }
 
-.btn-outline-success{
+.btn-outline-success {
   width: auto;
 }
 
-.carousel-inner{
+.carousel-inner {
   padding: 7% 15%;
 }
 
-#details{
+#details {
   padding: 0 100px 50px;
-  
 }
 
-ul{
- list-style-type:none;
+ul {
+  list-style-type: none;
 }
 
-ul li span{
+ul li span {
   display: block;
-  width:auto;
+  width: auto;
   overflow: hidden;
 }
 
 ul li input {
-    float:left;
-    margin:5px;
-    width:30px;
-    color: #c1c1c1;
+  float: left;
+  margin: 5px;
+  width: 30px;
+  color: #c1c1c1;
 }
 
-
-#footer{
+#footer {
   text-align: center;
   background-color: #005086;
-  color:#8f8f8f;
+  color: #8f8f8f;
   padding: 50px;
 }
 
-.footer-icon{
+.footer-icon {
   color: #000;
   margin: 10px;
 }
